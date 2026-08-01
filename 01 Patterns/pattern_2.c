@@ -1,3 +1,18 @@
+/*
+Question:
+Write a C program to print the following pattern for a given number of rows.
+
+Input:
+5
+
+Output:
+* * * * *
+* * * *
+* * *
+* *
+*
+*/
+
 #include<stdio.h>
 
 int main() {

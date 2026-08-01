@@ -1,3 +1,15 @@
+/*
+Question:
+Write a C program to print the following pattern for a given number of rows.
+
+Example (n = 5):
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
+
 #include<stdio.h>
 
 int main() {
