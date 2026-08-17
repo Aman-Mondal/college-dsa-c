@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int addElm(int n, int pos, int arr[]);
+void addElm(int n, int pos, int arr[]);
 void printArr(int arr[]);
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
     return 0;
 }
 
-int addElm(int n, int pos, int arr[]) {
+void addElm(int n, int pos, int arr[]) {
     for(int i=4;i>pos-1;i--) {
         arr[i+1]=arr[i];
     }
