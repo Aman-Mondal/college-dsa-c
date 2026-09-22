@@ -18,7 +18,7 @@ void colMaj(int arr[3][4], int elm) {
   for (int i = 0; i < 4; i++) {
     for (int j = 0; j < 3; j++) {
       if (elm == *(*(arr + j) + i)) {
-        printf("Address wrt Row Major of %d is %p", elm,
+        printf("Address wrt Col Major of %d is %p", elm,
                (void *)(*arr + counter));
       }
       counter++;
