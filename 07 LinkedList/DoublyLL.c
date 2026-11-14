@@ -19,11 +19,11 @@ void initialize() {
   second->data = 20;
   third->data = 30;
   first->next = second;
-  first-prev = NULL;
+  first->prev = NULL;
   second->next = third;
   second->prev = first;
   third->next = NULL;
-  third-prev = second;
+  third->prev = second;
 }
 
 // Insert Element at Begining
